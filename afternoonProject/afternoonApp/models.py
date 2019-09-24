@@ -12,7 +12,7 @@ class Author(models.Model):
          return self.first_name
 
 class Post(models.Model):
-    author= models.ForeignKey(Author, on_delete=models.CASCADE)
+    author= models.ForeignKey(Author, on_delete=models.CASCADE) #foreign key that ties posts to author
     title = models.CharField(max_length=200)
     content = models.CharField(max_length=200)
     date_posted = models.DateTimeField(default=timezone.now)

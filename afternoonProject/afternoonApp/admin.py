@@ -4,5 +4,5 @@ from django.contrib import admin
 from .models import Author, Post
 
 # Register your models here.
-admin.site.register(Author)
-admin.site.register(Post)
+admin.site.register(Author) #creates option to make different authors
+admin.site.register(Post) #creates option to make different posts and allows tying to different authors based on choice
