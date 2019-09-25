@@ -1,5 +1,5 @@
 # Classwork on using the Django ORM capability from the console
-
+####You successfully added both models successfully linked them with a foreign key and added the correct data. 5/5 Score: 2/2. Thank you for commenting your code. Please continue to do so.  
 ## Exercise 1:
 * Create new model for ```Author```
 - Author should have properties for ```first_name``` and ```last_name```
